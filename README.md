@@ -1,6 +1,6 @@
 ![screnshots](https://farm8.staticflickr.com/7508/15498980049_3527e0817e_b.jpg)
 
-# OneBody
+# ~~OneBody~~ TwoBody
 
 [![Install on DigitalOcean](https://img.shields.io/badge/install-digital_ocean-479de4.svg)](http://installer.71m.us/install?url=https://github.com/churchio/onebody)
 [![Install on Amazon EC2](https://img.shields.io/badge/install-amazon_ec2-f78527.svg)](https://github.com/churchio/onebody/wiki/Amazon-AMI)
@@ -13,7 +13,9 @@ OneBody is open-source, web-based social networking, email list, online director
 
 This software has been in production use at churches for over seven years!
 
-Visit our website at [church.io](http://church.io) or browse through our [screenshots on Flickr](https://www.flickr.com/photos/timothymorgan/sets/72157644451251789) to see more.
+And TwoBody is a fork designed for use by non-church communities who don't necessarily need things like real names, fax numbers and bible verses.
+
+Visit our (parent project's) website at [church.io](http://church.io) or browse through our [screenshots on Flickr](https://www.flickr.com/photos/timothymorgan/sets/72157644451251789) to see more.
 
 ## Contributing to the Project
 
@@ -50,13 +52,13 @@ Operating System: Windows, Mac, or Linux
 3. Install [Git](http://git-scm.com/downloads).
    * If you're on Mac, you can use [GitHub for Mac](https://mac.github.com/).
    * If you're on Windows, you can use [GitHub for Windows](https://windows.github.com/).
-4. Clone the repository to your host machine: `git clone git://github.com/churchio/onebody.git` (If you forked the project, clone from your own fork.)
-5. In your terminal, change to the project directory: `cd onebody`
+4. Clone the repository to your host machine: `git clone https://github.com/FrobtheBuilder/twobody.git` (If you forked the project, clone from your own fork.)
+5. In your terminal, change to the project directory: `cd twobody`
 6. Run vagrant: `vagrant up`
 
 Now visit the site running in development mode at http://localhost:8080.
 
-You can use your favorite text editor to make changes inside the `onebody` directory. Changes should show in your browser after refreshing.
+You can use your favorite text editor to make changes inside the `twobody` directory. Changes should show in your browser after refreshing.
 
 Check out [Using Vagrant](https://github.com/churchio/onebody/wiki/Using-Vagrant) on the wiki for further help and tips.
 
@@ -69,7 +71,7 @@ Operating System: Mac or Linux (See Vagrant above if you're on Windows)
 3. Install Git.
 4. Install ImageMagick.
 5. Install Node.js.
-6. `git clone git://github.com/churchio/onebody.git && cd onebody`
+6. `git clone https://github.com/FrobtheBuilder/twobody.git && cd twobody`
 7. `mysql -uroot -e "grant all on onebody_dev.* to onebody@localhost identified by 'onebody';"`
 8. `mysql -uroot -e "grant all on onebody_test.* to onebody@localhost identified by 'onebody';"`
 9. `cp config/database.yml{.mysql-example,}`
